@@ -1,0 +1,198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000101 /* CodexWorkbenchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000201 /* CodexWorkbenchApp.swift */; };
+		000000000000000000000102 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000202 /* AppState.swift */; };
+		000000000000000000000103 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000203 /* RootView.swift */; };
+		000000000000000000000104 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000204 /* MainTabView.swift */; };
+		000000000000000000000105 /* AuthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000205 /* AuthModels.swift */; };
+		000000000000000000000106 /* ProjectModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000206 /* ProjectModels.swift */; };
+		000000000000000000000107 /* MessageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000207 /* MessageModels.swift */; };
+		000000000000000000000108 /* HostURLStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000208 /* HostURLStore.swift */; };
+		000000000000000000000109 /* TokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000209 /* TokenStore.swift */; };
+		00000000000000000000010A /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000020A /* APIClient.swift */; };
+		00000000000000000000010B /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000020B /* MultipartFormData.swift */; };
+		00000000000000000000010C /* WebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000020C /* WebSocketClient.swift */; };
+		00000000000000000000010D /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000020D /* AuthenticationView.swift */; };
+		00000000000000000000010E /* ProjectsSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000020E /* ProjectsSplitView.swift */; };
+		00000000000000000000010F /* ProjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000020F /* ProjectListView.swift */; };
+		000000000000000000000110 /* ThreadListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000210 /* ThreadListView.swift */; };
+		000000000000000000000111 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000211 /* ChatView.swift */; };
+		000000000000000000000112 /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000212 /* MessageListView.swift */; };
+		000000000000000000000113 /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000213 /* ComposerView.swift */; };
+		000000000000000000000114 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000214 /* SettingsView.swift */; };
+		000000000000000000000115 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000215 /* PrivacyInfo.xcprivacy */; };
+		000000000000000000000116 /* HostURLStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000216 /* HostURLStoreTests.swift */; };
+		000000000000000000000117 /* WorkbenchTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000218 /* WorkbenchTheme.swift */; };
+		000000000000000000000118 /* HostConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000219 /* HostConfigView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000000000000000000000301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000000000401;
+			remoteInfo = CodexWorkbench;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000201 /* CodexWorkbenchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexWorkbenchApp.swift; sourceTree = "<group>"; };
+		000000000000000000000202 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		000000000000000000000203 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		000000000000000000000204 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		000000000000000000000205 /* AuthModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModels.swift; sourceTree = "<group>"; };
+		000000000000000000000206 /* ProjectModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectModels.swift; sourceTree = "<group>"; };
+		000000000000000000000207 /* MessageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModels.swift; sourceTree = "<group>"; };
+		000000000000000000000208 /* HostURLStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostURLStore.swift; sourceTree = "<group>"; };
+		000000000000000000000209 /* TokenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStore.swift; sourceTree = "<group>"; };
+		00000000000000000000020A /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		00000000000000000000020B /* MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		00000000000000000000020C /* WebSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketClient.swift; sourceTree = "<group>"; };
+		00000000000000000000020D /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		00000000000000000000020E /* ProjectsSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsSplitView.swift; sourceTree = "<group>"; };
+		00000000000000000000020F /* ProjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectListView.swift; sourceTree = "<group>"; };
+		000000000000000000000210 /* ThreadListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadListView.swift; sourceTree = "<group>"; };
+		000000000000000000000211 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		000000000000000000000212 /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
+		000000000000000000000213 /* ComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerView.swift; sourceTree = "<group>"; };
+		000000000000000000000214 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		000000000000000000000215 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		000000000000000000000216 /* HostURLStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostURLStoreTests.swift; sourceTree = "<group>"; };
+		000000000000000000000217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000000000000000000218 /* WorkbenchTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkbenchTheme.swift; sourceTree = "<group>"; };
+		000000000000000000000219 /* HostConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostConfigView.swift; sourceTree = "<group>"; };
+		000000000000000000000501 /* CodexWorkbench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodexWorkbench.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000502 /* CodexWorkbenchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodexWorkbenchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000601 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000602 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000701 /* CodexWorkbench */,
+				000000000000000000000702 /* CodexWorkbenchTests */,
+				000000000000000000000703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000701 /* CodexWorkbench */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000704 /* App */,
+				000000000000000000000705 /* Models */,
+				000000000000000000000706 /* Services */,
+				00000000000000000000070D /* Components */,
+				000000000000000000000707 /* Views */,
+				000000000000000000000708 /* Resources */,
+			);
+			path = CodexWorkbench;
+			sourceTree = "<group>";
+		};
+		000000000000000000000702 /* CodexWorkbenchTests */ = {isa = PBXGroup; children = (000000000000000000000216 /* HostURLStoreTests.swift */,); path = CodexWorkbenchTests; sourceTree = "<group>"; };
+		000000000000000000000703 /* Products */ = {isa = PBXGroup; children = (000000000000000000000501 /* CodexWorkbench.app */, 000000000000000000000502 /* CodexWorkbenchTests.xctest */,); name = Products; sourceTree = "<group>"; };
+		000000000000000000000704 /* App */ = {isa = PBXGroup; children = (000000000000000000000201, 000000000000000000000202, 000000000000000000000203, 000000000000000000000204,); path = App; sourceTree = "<group>"; };
+		000000000000000000000705 /* Models */ = {isa = PBXGroup; children = (000000000000000000000205, 000000000000000000000206, 000000000000000000000207,); path = Models; sourceTree = "<group>"; };
+		000000000000000000000706 /* Services */ = {isa = PBXGroup; children = (000000000000000000000208, 000000000000000000000209, 00000000000000000000020A, 00000000000000000000020B, 00000000000000000000020C,); path = Services; sourceTree = "<group>"; };
+		000000000000000000000707 /* Views */ = {isa = PBXGroup; children = (000000000000000000000709 /* Auth */, 00000000000000000000070A /* Projects */, 00000000000000000000070B /* Chat */, 00000000000000000000070C /* Settings */,); path = Views; sourceTree = "<group>"; };
+		000000000000000000000708 /* Resources */ = {isa = PBXGroup; children = (000000000000000000000217, 000000000000000000000215,); path = Resources; sourceTree = "<group>"; };
+		000000000000000000000709 /* Auth */ = {isa = PBXGroup; children = (00000000000000000000020D,); path = Auth; sourceTree = "<group>"; };
+		00000000000000000000070A /* Projects */ = {isa = PBXGroup; children = (00000000000000000000020E, 00000000000000000000020F, 000000000000000000000210,); path = Projects; sourceTree = "<group>"; };
+		00000000000000000000070B /* Chat */ = {isa = PBXGroup; children = (000000000000000000000211, 000000000000000000000212, 000000000000000000000213,); path = Chat; sourceTree = "<group>"; };
+		00000000000000000000070C /* Settings */ = {isa = PBXGroup; children = (000000000000000000000214, 000000000000000000000219,); path = Settings; sourceTree = "<group>"; };
+		00000000000000000000070D /* Components */ = {isa = PBXGroup; children = (000000000000000000000218,); path = Components; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000401 /* CodexWorkbench */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000801 /* Build configuration list for PBXNativeTarget "CodexWorkbench" */;
+			buildPhases = (000000000000000000000901 /* Sources */, 000000000000000000000601 /* Frameworks */, 000000000000000000000902 /* Resources */,);
+			buildRules = ();
+			dependencies = ();
+			name = CodexWorkbench;
+			productName = CodexWorkbench;
+			productReference = 000000000000000000000501 /* CodexWorkbench.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000000000000000000000402 /* CodexWorkbenchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000802 /* Build configuration list for PBXNativeTarget "CodexWorkbenchTests" */;
+			buildPhases = (000000000000000000000903 /* Sources */, 000000000000000000000602 /* Frameworks */, 000000000000000000000904 /* Resources */,);
+			buildRules = ();
+			dependencies = (000000000000000000000302 /* PBXTargetDependency */,);
+			name = CodexWorkbenchTests;
+			productName = CodexWorkbenchTests;
+			productReference = 000000000000000000000502 /* CodexWorkbenchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					000000000000000000000401 = {CreatedOnToolsVersion = 16.0;};
+					000000000000000000000402 = {CreatedOnToolsVersion = 16.0; TestTargetID = 000000000000000000000401;};
+				};
+			};
+			buildConfigurationList = 000000000000000000000800 /* Build configuration list for PBXProject "CodexWorkbench" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base,);
+			mainGroup = 000000000000000000000002;
+			productRefGroup = 000000000000000000000703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (000000000000000000000401 /* CodexWorkbench */, 000000000000000000000402 /* CodexWorkbenchTests */,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000902 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000115 /* PrivacyInfo.xcprivacy in Resources */,); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000904 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000901 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000101, 000000000000000000000102, 000000000000000000000103, 000000000000000000000104, 000000000000000000000105, 000000000000000000000106, 000000000000000000000107, 000000000000000000000108, 000000000000000000000109, 00000000000000000000010A, 00000000000000000000010B, 00000000000000000000010C, 00000000000000000000010D, 00000000000000000000010E, 00000000000000000000010F, 000000000000000000000110, 000000000000000000000111, 000000000000000000000112, 000000000000000000000113, 000000000000000000000114, 000000000000000000000117, 000000000000000000000118,); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000903 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000116,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000000000000000000000302 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 000000000000000000000401 /* CodexWorkbench */; targetProxy = 000000000000000000000301 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000000000A01 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_ENABLE_OBJC_WEAK = YES; CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES; CLANG_WARN_BOOL_CONVERSION = YES; CLANG_WARN_COMMA = YES; CLANG_WARN_CONSTANT_CONVERSION = YES; CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES; CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_EMPTY_BODY = YES; CLANG_WARN_ENUM_CONVERSION = YES; CLANG_WARN_INFINITE_RECURSION = YES; CLANG_WARN_INT_CONVERSION = YES; CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES; CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES; CLANG_WARN_OBJC_LITERAL_CONVERSION = YES; CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR; CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; CLANG_WARN_RANGE_LOOP_ANALYSIS = YES; CLANG_WARN_STRICT_PROTOTYPES = YES; CLANG_WARN_SUSPICIOUS_MOVE = YES; CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE; CLANG_WARN_UNREACHABLE_CODE = YES; CLANG_WARN__DUPLICATE_METHOD_MATCH = YES; CODE_SIGN_STYLE = Automatic; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_STRICT_OBJC_MSGSEND = YES; ENABLE_TESTABILITY = YES; ENABLE_USER_SCRIPT_SANDBOXING = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_DYNAMIC_NO_PIC = NO; GCC_NO_COMMON_BLOCKS = YES; GCC_OPTIMIZATION_LEVEL = 0; GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)",); GCC_WARN_64_TO_32_BIT_CONVERSION = YES; GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR; GCC_WARN_UNDECLARED_SELECTOR = YES; GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE; GCC_WARN_UNUSED_FUNCTION = YES; GCC_WARN_UNUSED_VARIABLE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE; MTL_FAST_MATH = YES; ONLY_ACTIVE_ARCH = YES; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		000000000000000000000A02 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE; CLANG_CXX_LANGUAGE_STANDARD = "gnu++20"; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_ENABLE_OBJC_WEAK = YES; CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES; CLANG_WARN_BOOL_CONVERSION = YES; CLANG_WARN_COMMA = YES; CLANG_WARN_CONSTANT_CONVERSION = YES; CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES; CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_EMPTY_BODY = YES; CLANG_WARN_ENUM_CONVERSION = YES; CLANG_WARN_INFINITE_RECURSION = YES; CLANG_WARN_INT_CONVERSION = YES; CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES; CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES; CLANG_WARN_OBJC_LITERAL_CONVERSION = YES; CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR; CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES; CLANG_WARN_RANGE_LOOP_ANALYSIS = YES; CLANG_WARN_STRICT_PROTOTYPES = YES; CLANG_WARN_SUSPICIOUS_MOVE = YES; CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE; CLANG_WARN_UNREACHABLE_CODE = YES; CLANG_WARN__DUPLICATE_METHOD_MATCH = YES; CODE_SIGN_STYLE = Automatic; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; ENABLE_STRICT_OBJC_MSGSEND = YES; ENABLE_USER_SCRIPT_SANDBOXING = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; GCC_WARN_64_TO_32_BIT_CONVERSION = YES; GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR; GCC_WARN_UNDECLARED_SELECTOR = YES; GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE; GCC_WARN_UNUSED_FUNCTION = YES; GCC_WARN_UNUSED_VARIABLE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MTL_ENABLE_DEBUG_INFO = NO; MTL_FAST_MATH = YES; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; VALIDATE_PRODUCT = YES; }; name = Release; };
+		000000000000000000000A03 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = CodexWorkbench/Resources/Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks",); MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.codexworkbench.ios; PRODUCT_NAME = CodexWorkbench; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		000000000000000000000A04 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = CodexWorkbench/Resources/Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks",); MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.codexworkbench.ios; PRODUCT_NAME = CodexWorkbench; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+		000000000000000000000A05 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks",); PRODUCT_BUNDLE_IDENTIFIER = com.codexworkbench.ios.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodexWorkbench.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodexWorkbench"; }; name = Debug; };
+		000000000000000000000A06 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks",); PRODUCT_BUNDLE_IDENTIFIER = com.codexworkbench.ios.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodexWorkbench.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodexWorkbench"; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000800 /* Build configuration list for PBXProject "CodexWorkbench" */ = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000A01, 000000000000000000000A02,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		000000000000000000000801 /* Build configuration list for PBXNativeTarget "CodexWorkbench" */ = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000A03, 000000000000000000000A04,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		000000000000000000000802 /* Build configuration list for PBXNativeTarget "CodexWorkbenchTests" */ = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000A05, 000000000000000000000A06,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}

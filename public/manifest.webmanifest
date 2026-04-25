@@ -1,0 +1,15 @@
+{
+  "name": "CODEX WORKBENCH",
+  "short_name": "CODEX WORKBENCH",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f1e9",
+  "theme_color": "#111713",
+  "icons": [
+    {
+      "src": "/pwa-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
