@@ -38,6 +38,25 @@ export class ApiClient {
     return this.requestWithToken(path, options, true);
   }
 
+  requestContext(path) {
+    if (path.startsWith("/api/uploads")) return "upload";
+    if (path.startsWith("/api/auth")) return "auth";
+    if (path.includes("/send")) return "send";
+    return "api";
+  }
+
+  networkErrorMessage(path, error) {
+    const context = this.requestContext(path);
+    const message = error?.message || "";
+    if (message === "Load failed" || message === "Failed to fetch" || message === "NetworkError when attempting to fetch resource.") {
+      if (context === "upload") return "上传失败。文件可能过大，或手机与电脑连接中断。";
+      if (context === "auth") return "无法连接到 CODEX WORKBENCH Host Service。请确认电脑端服务正在运行，并且手机和电脑在同一网络。";
+      if (context === "send") return "发送失败。请确认电脑端服务仍在运行，且当前线程没有断开。";
+      return "网络请求失败。请确认电脑端服务正在运行，并且手机和电脑在同一网络。";
+    }
+    return message || "Network request failed";
+  }
+
   async requestWithToken(path, options = {}, allowRefresh) {
     const token = this.getAccessToken();
     const headers = new Headers(options.headers);
@@ -49,7 +68,7 @@ export class ApiClient {
     try {
       response = await fetch(path, { ...options, headers });
     } catch (error) {
-      throw new Error(error?.message === "Load failed" ? "上传或网络请求失败。图片可能过大，或手机与电脑连接中断。" : error?.message || "Network request failed");
+      throw new Error(this.networkErrorMessage(path, error));
     }
     if (response.status === 401 && allowRefresh) {
       const refreshed = await this.refresh();
